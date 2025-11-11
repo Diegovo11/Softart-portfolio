@@ -522,6 +522,34 @@ nav .container {
     border-color: rgba(16, 185, 129, 0.6);
 }
 
+/* Colores personalizados por servicio */
+/* Gmail - Rojo/Azul */
+.contact-gmail {
+    background: linear-gradient(135deg, rgba(234, 67, 53, 0.2) 0%, rgba(66, 133, 244, 0.2) 100%);
+    border-color: rgba(234, 67, 53, 0.4);
+}
+
+.contact-gmail:hover {
+    background: linear-gradient(135deg, rgba(234, 67, 53, 0.35) 0%, rgba(66, 133, 244, 0.35) 100%);
+    border-color: rgba(234, 67, 53, 0.6);
+}
+
+.contact-gmail.copied {
+    background: linear-gradient(135deg, rgba(234, 67, 53, 0.4) 0%, rgba(66, 133, 244, 0.4) 100%);
+    border-color: rgba(234, 67, 53, 0.7);
+}
+
+/* WhatsApp - Verde */
+.contact-whatsapp {
+    background: linear-gradient(135deg, rgba(31, 194, 85, 0.2) 0%, rgba(17, 168, 67, 0.2) 100%);
+    border-color: rgba(31, 194, 85, 0.4);
+}
+
+.contact-whatsapp:hover {
+    background: linear-gradient(135deg, rgba(31, 194, 85, 0.35) 0%, rgba(17, 168, 67, 0.35) 100%);
+    border-color: rgba(31, 194, 85, 0.6);
+}
+
 .footer {
     background: var(--dark-color);
     color: white;
