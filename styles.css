@@ -49,6 +49,17 @@ nav .container {
     padding: 1rem 20px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
 .logo h1 {
     background: var(--gradient-1);
     -webkit-background-clip: text;
