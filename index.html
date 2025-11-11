@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SoftArt</title>
+    <title>SoftArt Web</title>
     <meta name="description" content="Creamos páginas web que generan resultados. Servicios de desarrollo web desde $250 MXN.">
 
     <meta property="og:type" content="website">
@@ -49,7 +49,7 @@
         <div class="container">
             <div class="logo">
                 <img src="image/logo.png" alt="SoftArt Logo" class="logo-img">
-                <h1>SoftArt</h1>
+                <h1>SoftArt Web</h1>
             </div>
 
             <button class="menu-toggle" aria-label="Toggle menu">
@@ -239,12 +239,32 @@
             <h2>Trabajemos juntos</h2>
             <p>Contáctanos para llevar tu negocio al siguiente nivel</p>
             <div class="contact-info">
-                <a href="mailto:softartdw@gmail.com" class="contact-item">
-                    <span>📧</span>softartdw@gmail.com
+                <!-- Email copiable -->
+                <button class="contact-item contact-copy" data-text="softartdw@gmail.com" title="Haz clic para copiar el correo">
+                    <span>📧</span>
+                    <div>
+                        <p class="contact-label">Email</p>
+                        <p class="contact-value">softartdw@gmail.com</p>
+                    </div>
+                </button>
+
+                <!-- WhatsApp con mensaje directo -->
+                <a href="https://wa.me/525535567513?text=Hola%20me%20interesa%20el%20de%20desarrollo%20web" target="_blank" class="contact-item contact-whatsapp" title="Abre WhatsApp">
+                    <span>�</span>
+                    <div>
+                        <p class="contact-label">WhatsApp</p>
+                        <p class="contact-value">Mensaje directo</p>
+                    </div>
                 </a>
-                <a href="tel:+123456789" class="contact-item">
-                    <span>📞</span>+123 456 789
-                </a>
+
+                <!-- Teléfono copiable -->
+                <button class="contact-item contact-copy" data-text="+525535567513" title="Haz clic para copiar el teléfono">
+                    <span>📞</span>
+                    <div>
+                        <p class="contact-label">Teléfono</p>
+                        <p class="contact-value">Haz clic para copiar</p>
+                    </div>
+                </button>
             </div>
         </div>
     </section>

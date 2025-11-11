@@ -480,17 +480,46 @@ nav .container {
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
     font-weight: 600;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
 }
 
 .contact-item:hover {
     background: rgba(255, 255, 255, 0.3);
     transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .contact-item span {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item div {
+    text-align: left;
+}
+
+.contact-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.contact-value {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Efecto de copia */
+.contact-copy.copied {
+    background: rgba(16, 185, 129, 0.3);
+    border-color: rgba(16, 185, 129, 0.6);
 }
 
 .footer {
